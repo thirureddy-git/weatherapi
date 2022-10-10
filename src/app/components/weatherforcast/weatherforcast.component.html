@@ -1,0 +1,8 @@
+<h1> Weather Forecast!! </h1>
+<div *ngFor="let w of period">
+<h2> {{ w.name }}</h2>
+<p> Temperature: {{ w.temperature }}{{ w.temperatureUnit }} </p>
+<img src="{{ w.icon }}" />
+<p> {{ w.detailedForecast }} </p>
+</div>>
+  
